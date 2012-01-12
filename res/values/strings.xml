@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, StatusActivity!</string>
+    <string name="app_name">Yamba</string>
+    <string name="status_update">Status Update</string>
+    <string name="hintStatus">Please enter your 140 characters messages</string>
+    <string name="buttonUpdate">Click To Update</string>
+	<string	name="msgPostedSuccesfully">Messages have been updated</string>
+	<string name="msgPostedFailed">Messages failed to posted</string>
+	<string name="username">Username</string>
+	<string name="usernameSummary">Please enter your username</string>
+	<string name="password">Password</string>
+	<string name="passwordSummary">Enter your password</string>
+	<string name="serverSummary">Please enter the server you wish to login</string>
+	<string name="prefsTitle">Preferences</string>
+	<string name="menuPrefs">Preferences Menu</string>
+	<string name="startService">Start Service</string>
+	<string name="stopService">Stop Service</string>
+	<string name="titleTimeLine">Time Line</string>
+	<string name="titlePurge">Purge</string>
+	<string name="titleStartAtBoot">Start At Boot</string>
+</resources>

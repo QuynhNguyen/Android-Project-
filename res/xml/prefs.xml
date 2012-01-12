@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <EditTextPreference android:title="@string/username" android:key="username" android:summary="@string/usernameSummary"/>
+    <EditTextPreference android:password="true" android:title="@string/password" android:key="password" android:summary="@string/passwordSummary"/>
+    <EditTextPreference android:title="Server" android:key="server" android:summary="@string/serverSummary"/>
+    <CheckBoxPreference android:title="@string/titleStartAtBoot" android:key="StartAtBoot"/>
+
+    
+
+</PreferenceScreen>

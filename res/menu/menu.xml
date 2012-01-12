@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/itemPrefs" android:title="@string/prefsTitle" android:icon="@drawable/prefsicon"></item>
+<!--     <item android:id="@+id/itemServiceStart" android:title="@string/startService"></item>
+    <item android:id="@+id/itemServiceStop" android:title="@string/stopService"></item> -->
+    <item android:id="@+id/itemTimeLine" android:title="@string/titleTimeLine"></item>
+    <item android:id="@+id/itemPurge" android:title="@string/titlePurge"></item>
+    <item android:id="@+id/itemStatus" android:title="itemStatus"></item>
+    <item android:id="@+id/itemToggleService" android:title="@string/startService"></item>
+</menu>

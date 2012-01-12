@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" android:padding="5dp">
+	
+    <!-- First row of data: User and created AT -->
+    
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <!-- User -->
+        <TextView
+            android:id="@+id/textUser"
+            style="@style/rowText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quynh"
+            android:layout_weight="1"
+            android:textColor="#f00" android:textSize="20dp"/>
+
+        <!-- posted at -->
+        <TextView
+            android:id="@+id/textDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="50 minutes ago" />
+
+    </LinearLayout>
+
+    <!-- Second row of data -->
+    <TextView
+        android:id="@+id/textText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="all"
+        android:text="Learning Android" style="@style/rowText" android:textColor="#fff"/>
+
+</LinearLayout>
